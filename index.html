@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> E-COMMERCE </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <nav class="nav nav_top">
+        <div class="logo">
+            <a href:"#">
+                <image src="giffff.webp" widht="680">
+            </a>
+        </div>
+        <div class="nav_side">
+            <a href="about.html">ABOUT US </a> |
+            <a href="service.html">SERVICE </a> |
+            <a href="blogs.html">BLOGS </a>      |
+            <a href="contact.html">CONTACT </a>   |
+            <a href="login.html ">LOGIN/REGISTER </a>
+        </div>
+        <!----the first sript code is for login and registre to move correctly---->
+        <script>
+            var x= document.getElementById('login');
+            var y=document.getElementById('register');
+            var z=document.getElementById('btn');
+            function register()
+            {
+                x.style.left='400px';
+                y.style.left='50px';
+                z.style.left='110px';
+            }
+            function login()
+            {
+                x.style.left='50px';
+                y.style.left='450px';
+                z.style.left='0px';
+            }
+        </script>
+        <!----this code is for when uh click out the register page the-form box will disappears-->
+        <script>
+            var modal= document.getElementById('login-form');
+            window .onclick= function(event)
+            {
+              if(event.target==modal)
+              {
+                  modal.style.display="none";
+              }
+            }
+        </script>
+    </nav>
+    <div class="main">
+        <div class="main_content">
+            <h2>Edacution Is Form Of Art And Creativity</h2>
+            <h4>Education refers to ‘the process of providing and receiving instructions, through academic and
+                scholastic efforts.’ Education is a process that begins at home. It differentiates humans from other
+                living things.
+
+                Education disciplines and develops both academic performances as well as curricular activities. A person
+                learns to read, write, speak, practice activities, and learn various skills through Education. Education
+                makes a person independent and self-sufficient.
+
+                Learning is a part of Education and can be learned from anyone around us, even from an ant, who teaches
+                us to try until we achieve success. Therefore, one needs to adapt, learn, and educate oneself to become
+                knowledgeable.
+
+            </h4>
+        </div>
+    </div>
+    <div class="ourproducts">OUR PRODUCTS</div>
+    <div class="products">
+        <div class="product">
+            <img src="./chemistry.jpg" alt="" srcset="">
+            <h2>Chemistry</h2>
+            <a href=" ">BUY NOW</a>
+        </div>
+        <div class="product">
+            <img src="./physics.jpg" alt="" srcset="">
+            <h2>Physics</h2>
+            <a href=" ">BUY NOW</a>
+        </div>
+        <div class="product">
+            <img src="./maths.jpg" alt="" srcset="">
+            <h2>Maths</h2>
+            <a href=" ">BUY NOW</a>
+        </div>
+        <div class="product">
+            <img src="./computer science.jpg" alt="" srcset="">
+            <h2>Computer Science</h2>
+            <a href=" ">BUY NOW</a>
+        </div>
+        <div class="product">
+            <img src="./bio.jpg" alt="" srcset="">
+            <h2>Biology</h2>
+            <a href=" ">BUY NOW</a>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <div class="footer_logo">
+            <a href:"#"><image src="giffff.webp" widht="680">
+            </a>
+        </div>
+        <div class="pages">
+            <h3>PAGES</h3>
+            <a href="about.html">About Us</a>  |
+            <a href=" ">Services</a>   |
+            <a href=" ">Blogs</a>       |  
+            <a href=" ">Contact</a>      |
+            <a href=" ">Login</a>         |
+            <a href=" ">Sign up</a>
+        </div>
+        <div class="doc">
+            <h3>DOCUMENTS</h3>
+            <a href=" ">Privacy Policy</a>  |
+            <a href=" ">Terms And Use</a>    |
+            <a href=" ">Refund Policy</a>     |
+        </div>
+        <div class="social">
+            <h3>FOLLOW US </h3>
+            <a href=" "><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href=" "><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href=" "><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=" "><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+        <div class="contact">
+            <h3>CONTACT US</h3>
+            <a href=" "> </a>
+            <a href=" "> </a>
+            <a href=" "> </a>
+        </div>
+        <hr>
+        <p>copy right & copy; 2021 Products All Right Reserved</p>
+
+    </footer>
+</body>
+</html>

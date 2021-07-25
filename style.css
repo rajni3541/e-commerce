@@ -1,0 +1,147 @@
+
+.nav{
+    background-color:lightpink;
+    z-index: 9;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 300px;
+    box-shadow: 0px 3px 65px 0px;
+}
+.nav_top{
+    position:fixed ;
+    top: 0;
+    left:0;
+    right:0;
+}
+.logo{
+    float:left;
+    width : 60%;
+}
+.logo img{
+    padding :10px;
+}
+.nav_side{
+    float:right;
+    width: 40px;
+}
+.nav_side a{
+    text-decoration:none;
+    margin-top:60px ;
+    margin-right: 50px;
+    color:black;
+    font-weight: BOLD;
+    font-family: cosmic , sans-serif;
+    font:300px;
+}
+.nav_side a:hover{
+    color:white;
+    text-decoration: underline;
+    transition: all;
+}
+.main .main_content{
+    padding-top: 100px;
+    margin-left:10px;
+    margin-right: 10px;
+    color:mediumblue;
+}
+.main .main_content h2{
+    color:red;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+}
+.main .main_content h4{
+    color:peru;
+    font-size:20px;
+    font-weight:bold;
+}
+.main{
+    margin-top: 300px;
+}
+.products{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.ourproducts{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color:blue;
+}
+.product h2{
+    align-items:center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500px;
+    color:black;
+    margin:30px;
+}
+footer{
+    background-color:lightpink;
+    padding: 50px;
+}
+footer .page{
+    text-align:center;
+}
+footer .page h3{
+   color:black;
+   font-size: 20px;
+   font-family:cosmic,sans-serifs;
+   font-weight: bold;
+   padding:5px;
+}
+footer .page a{
+   text-decoration: none;
+   margin:right;
+   color:black;
+   font-size: 15px;
+   font-family:cosmic, sans-serif;
+   font-weight:bold;
+}
+footer .page a :hover{
+   color:white;
+}
+footer .doc{
+    text-align:center;
+}
+footer .doc h3{
+   color:black;
+   font-size: 20px;
+   font-family:cosmic,sans-serifs;
+   font-weight: bold;
+   padding:5px;
+}
+footer .doc a{
+   text-decoration: none;
+   margin:right;
+   color:black;
+   font-size: 15px;
+   font-family:cosmic, sans-serif;
+   font-weight:bold;
+}
+footer .doc a :hover{
+   color:white;
+}
+footer .social{
+    text-align:center;
+}
+footer .social h3{
+    color:black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding:5px;
+}
+footer .contact{
+    text-align:center;
+}
+footer .contact h3{
+    color:black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding:5px;
+}
